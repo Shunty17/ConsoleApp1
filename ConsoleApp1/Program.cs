@@ -28,6 +28,33 @@
 
             trimmedGreeting = greeting.Trim();
             Console.WriteLine($"[{trimmedGreeting}]");
+
+            //Replace
+            string sayHello = "Hello world!";
+            Console.WriteLine(sayHello);
+            sayHello = sayHello.Replace("Hello", "Greetings");
+            Console.WriteLine(sayHello);
+            Console.WriteLine(sayHello.ToUpper());
+            Console.WriteLine(sayHello.ToLower());
+
+            string songLyrics = "You say goodbye, and I say hello";
+            Console.WriteLine(songLyrics.Contains("goodbye"));
+            Console.WriteLine(songLyrics.Contains("greetings"));
+
+            Console.WriteLine(songLyrics.StartsWith("goodbye"));
+            Console.WriteLine(songLyrics.EndsWith("greetings"));
+            Console.WriteLine(songLyrics.StartsWith("You"));
+            Console.WriteLine(songLyrics.EndsWith("hello"));
+
+            //Replace
+            string sayHello = "Hello world!";
+            Console.WriteLine(sayHello);
+            sayHello = sayHello.Replace("Hello", "Greetings");
+            Console.WriteLine(sayHello);
+            Console.WriteLine(sayHello.ToUpper());
+            Console.WriteLine(sayHello.ToLower());
+
+           
         }
     }
 }
