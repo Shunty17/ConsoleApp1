@@ -17,6 +17,17 @@
             Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
             Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} leters.");
             Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} leters.");
+
+            string greeting = "        Hello world)         ";
+            Console.WriteLine($"[{greeting}]");
+            string trimmedGreeting = greeting.TrimStart();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.TrimEnd();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.Trim();
+            Console.WriteLine($"[{trimmedGreeting}]");
         }
     }
 }
